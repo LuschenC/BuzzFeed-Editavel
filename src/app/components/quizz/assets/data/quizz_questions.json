@@ -1,55 +1,56 @@
 {
-  "title":"Você seria um Android ou Apple dev?",
+  "title":"Você é um usuário de Android ou Apple?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "O que você mais valoriza em um celular?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Câmera de altíssima qualidade, mesmo em vídeo.", "alias":"A"},
+        {"id": 2, "name":"Bom custo-benefício.", "alias":"B"},
+        {"id": 3, "name":"Atualizações frequentes por anos", "alias":"A"},
+        {"id": 4, "name":"Poder usar dois chips no mesmo celular", "alias":"B"},
+        {"id": 5, "name":"Interface simples, elegante e intuitiva.", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "O que mais te incomodaria em um celular?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Ter muitos aplicativos pré-instalados", "alias":"A"},
+        {"id": 2, "name":"Câmera boa no papel, mas ruim na prática.", "alias":"A"},
+        {"id": 3, "name":"Não conseguir transferir arquivos por Bluetooth com liberdade.", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Que qualidades de vida te importariam mais?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Celular com bateria que dura mais de dois dias.", "alias":"B"},
+        {"id": 2, "name":"Design com acabamento de luxo.", "alias":"A"},
+        {"id": 3, "name":"Poder dar zoom e enxergar a kilômetros de distância", "alias":"A"},
+        {"id": 4, "name":"Poder comprar o carregador em qualquer loja", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual dessas frases mais combina com você?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Quero que meu celular combine com meu notebook, relógio, tablet…", "alias":"A"},
+        {"id": 2, "name":"Gosto de ter liberdade para fazer o que quiser no meu celular.", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Quando se trata de jogos, você:",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Sempre paga devidamente os desenvolvedores sem problema algum", "alias":"A"},
+        {"id": 2, "name":"Gosta de os adquirir gratuitamente e depois se gostar contribuir com o criador", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você muito provavelmente seria um usuário da Apple",
+    "B": "Você muito provavelmente seria um usuário do Android"
   }
 }
+
