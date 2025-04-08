@@ -1,0 +1,25 @@
+<div class="quizz_container">
+    <div class="quizz_logo">
+        <img src="https://media.discordapp.net/attachments/792838530815623181/1359167167115034754/logo.png?ex=67f67e90&is=67f52d10&hm=c7b71e1cc6f4ad5578348a61fa250b1a3f3e053cbc522643f9b48ff5a333e0b2&=&format=PNG&quality=lossless" alt="" class="scr">
+        <h3>{{title}}</h3>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_questions">
+        <h3>{{questionSelected.question}}</h3>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_options">
+        <button
+        *ngFor="let option of questionSelected.options; let i = index"
+        (click)="playerChoose(option.alias)"
+        class="btn-option"
+        >
+        {{option.name}}
+        </button>
+    </div>
+
+    <div *ngIf="finished" class="quizz_results">
+        <h1>O seu resultado é</h1>
+        <p>{{answerSelected}}</p>
+    </div>
+</div>
